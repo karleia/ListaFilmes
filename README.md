@@ -1,5 +1,5 @@
 # ListaFilmes
-Server para cadastro de lista de filmes, para integrar com o AuthServer
+Server para cadastro de lista de filmes, para integrar com o AuthServer, 
 projeto esta em master, usando a porta 8081
 
 #AuthServer
