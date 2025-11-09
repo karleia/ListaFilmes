@@ -1,0 +1,15 @@
+### Criar filme
+POST http://localhost:8081/filmes
+Content-Type: application/json
+
+{
+  "userId": "user123",
+  "title": "Matrix",
+  "duration": "2:16",
+  "gender": "Ação",
+  "description": "Clássico cyberpunk"
+}
+
+### Listar filmes do usuário
+GET http://localhost:8081/filmes/user123
+Accept: application/json
